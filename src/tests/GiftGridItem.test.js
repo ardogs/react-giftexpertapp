@@ -29,11 +29,9 @@ describe('Pruebas en componente GiftGridItem', () => {
     });
 
     test('Debe de tener animated__fadeIn ', () => {
-        console.clear()
         const div = wrapper.find('div');
-        console.log(div.prop('className'));
-    })
-    
-    
-    
+        const className = div.prop('className');
+        expect( className.includes( 'animate__fadeIn' ) ).toBe( true );
+    });
+      
 })

@@ -3,8 +3,8 @@ import '@testing-library/jest-dom'
 
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import { GiftGridItem } from '../components/GiftGridItem';
 
+import { GiftGridItem } from '../../components/GiftGridItem'
 
 
 describe('Pruebas en componente GiftGridItem', () => {
